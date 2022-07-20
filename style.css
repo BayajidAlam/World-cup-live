@@ -100,7 +100,7 @@ width: 100%;
   display: flex;
   flex-direction: column;
   height: 180px;
- 
+ border-radius: 8px;
   margin-right: 5px;
   background-color: #161616;
 }
@@ -221,8 +221,23 @@ hr{
  margin:40px 20px 60px 20px;
 
 }
-  
 
+.social-media-icon{
+  display: flex;
+  justify-content: center;
+  
+}
+.icon{
+  color: aliceblue;
+  font-size: 40px;
+  margin: 20px;
+  transition: transformation 0.5s;
+}
+
+/* icon hover */
+.icon:hover{
+  transform: scale(1.5);
+}
 /* media queries */
 /* mobile devices */
 @media only screen and (max-width: 688px) {
