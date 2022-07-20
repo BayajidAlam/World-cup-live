@@ -1,0 +1,169 @@
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color:white;
+
+}
+/* styles for upper-section */
+.upper-section{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color:#161616 ;
+  border-radius: 20px;
+}
+
+.containers{
+  display:flex;
+
+}
+.top-header{
+  font-size: 50px;
+  font-weight: 700px
+  ;
+  color: white;
+}
+.container-text{
+  width: 40%;
+  margin: 30px;
+  padding: 30px;
+
+  
+}
+.container-text p{
+  color: white;
+}
+.container-image{
+  width: 40%;
+  position: relative;
+  
+}
+.container-image img{
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+
+}
+.watch-live-button{
+  text-decoration: none;
+  color: white;
+  background-color:#DD0000 ;
+  width: 187px; 
+  height: 56px;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.fa-greater-than{
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+}
+/* second sections styles */
+.big-container{
+  width: 90%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+/* styles of manu */
+.left-container{
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  background-color: #161616;
+}
+.manu{
+  font-size: 16px;
+  background-color: white;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+}
+.manu a{
+  color: #161616;
+  text-decoration: none;}
+
+  /* manu end here */
+ /* manu hover effect */
+ .manu:hover{
+  background-color: #DD0000;
+  
+}
+.manu a:hover{
+color: white;
+}
+
+ /* manu hover effect */
+ .right-container{
+  width:86% ;
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-gap: 30px;
+  margin-left: 2%;
+}
+.unit{
+ border: 1px solid #E8E8E8;
+ border-radius: 10px;
+ padding: 20px;
+
+}
+.image-container{
+  display: flex;
+
+  justify-content: center;
+}
+.text-container{
+ text-align: center;
+}
+.date{
+  color: #4D4D4D;
+  font-size: 14px;
+}
+.opponents{
+  font-size:18px;
+}
+
+/* footer section styles */
+.bottom-section{
+  width: 100%;
+ 
+}
+.bottom-container{
+  background-color:#161616;
+  margin-top: 70px;
+  position: relative;
+
+}
+
+.bottom-text{
+  color: aliceblue;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+
+}
+hr{
+  width: 80%;
+}
+.bottom-options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.option{
+  color: white;
+ margin:40px 20px 60px 20px;
+
+}
+
+
+
